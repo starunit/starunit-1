@@ -13,26 +13,28 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self';upgrade-insecure-requests;connect-src www.google-analytics.com; font-src 'self' ; img-src 'self' www.google-analytics.com ; script-src 'self' code.jquery.com www.google.com www.google-analytics.com  'sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' ; style-src 'self' 'unsafe-inline' ;"> -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src www.google-analytics.com; font-src 'self' ; img-src 'self' www.google-analytics.com ; script-src 'self' code.jquery.com www.google.com www.google-analytics.com 'sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' ; style-src 'self' 'unsafe-inline';">
+  <!-- frame-src ; -->
 </head>
 <body>
 <!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+  <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<p>Hello world! This is from HTML5 Boilerplate.<br>
-
+<p>
+  Hello world! This is from HTML5 Boilerplate.<br>
   And it's the start of my new wesite - time to get totally rid of that old 2000 site.<br>
-
   Sorry if you were looking for those old vacation slideshows. Gone.
-
 </p>
-Oh, heck. Here's something to keep you entertained while the new site is being built...<br>
 
+Oh, heck. Here's something to keep you entertained while the new site is being built...<br>
 <img src="img/hamu.gif" alt="Dancing hampster, all alone">
 <p>
-  By the way: Yes, I am a Microsoft Partner, and have been since the late '90s
-  <br>
+  By the way: Yes, I am a Microsoft Partner, and have been since the late '90s<br>
   <img src="img/mstarrMP.png" alt="Microsoft Partner: yes sir.">
 </p>
 
@@ -44,8 +46,8 @@ Oh, heck. Here's something to keep you entertained while the new site is being b
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <!--<script>-->
-  <!--window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;-->
-  <!--ga('create','UA-XXXXX-Y','auto');ga('send','pageview')-->
+<!--window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;-->
+<!--ga('create','UA-XXXXX-Y','auto');ga('send','pageview')-->
 <!--</script>-->
 <!--<script src="https://www.google-analytics.com/analytics.js" async defer></script>-->
 </body>
