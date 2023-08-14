@@ -2,4 +2,8 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow:
+Disallow: /
+
+# https://arstechnica.com/information-technology/2023/08/openai-details-how-to-keep-chatgpt-from-gobbling-up-website-data/
+User-agent: GPTBot
+Disallow: /
